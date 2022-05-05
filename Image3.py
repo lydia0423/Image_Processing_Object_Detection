@@ -67,6 +67,10 @@ cv2.imshow("Image", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+cv2.imwrite("ThreshOut.jpg", thresh)
+cv2.imwrite("FinalOut.jpg", image)
+
+
 
 
 

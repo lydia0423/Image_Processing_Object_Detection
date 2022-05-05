@@ -11,7 +11,7 @@ def f(x):
     return x
 
 
-a = cv2.imread("Image/Image8.jpg")
+a = cv2.imread("Image/Image7.jpg")
 
 scale_percent = 10  # percent of original size
 width = int(a.shape[1] * scale_percent / 100)
